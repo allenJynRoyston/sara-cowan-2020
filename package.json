@@ -1,5 +1,45 @@
 {
-    "name": "sara_cowan_2020",
-    "version": "1.0.0",
-    "main": "web.js"
+  "name": "sara_cowan_2020",
+  "version": "1.0.0",
+  "main": "web.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "git": "npm run create:all && git add . && git commit -m \"auto commit\" && git push origin master",
+    "create:blog": "node node/buildBlog.js",
+    "create:links": "node node/buildLinks.js",
+    "create:all": "npm run create:blog && npm run create:links",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.4",
+    "nuxt-compress": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@nuxtjs/markdownit": "^1.2.10",
+    "@nuxtjs/pwa": "^3.0.2",
+    "@vue/cli-plugin-unit-jest": "^4.5.4",
+    "@vue/test-utils": "^1.0.5",
+    "axios": "^0.20.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.3.0",
+    "install": "^0.13.0",
+    "jest": "^26.4.2",
+    "jest-serializer-vue": "^2.0.2",
+    "node-sass": "^4.14.1",
+    "npm": "^6.14.8",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^10.0.1",
+    "vue-jest": "^3.0.6",
+    "vuex": "^3.5.1"
+  },
+  "keywords": [],
+  "author": "Allen Royston",
+  "license": "MIT"
 }

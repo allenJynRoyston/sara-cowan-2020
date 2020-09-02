@@ -1,0 +1,29 @@
+.blog-layout{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+
+    .title{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .subtitle{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .author{
+        font-size: 12px;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .back{
+        font-size: 12px;
+    }
+
+    .content{
+        text-align: left
+    }
+}

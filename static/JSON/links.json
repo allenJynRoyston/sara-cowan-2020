@@ -1,0 +1,27 @@
+{
+    "links": [
+        {
+            "name": "home",
+            "link": "/"
+        },
+        {
+            "name": "about",
+            "link": "/about"
+        },
+        {
+            "name": "contact",
+            "link": "/contact"
+        },
+        {
+            "name": "todos",
+            "link": "/todos"
+        },
+        {
+            "name": "blog",
+            "link": "/blog"
+        }
+    ],
+    "metadata": {
+        "updatedOn": "2020-09-01T13:33:29.837Z"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "entries": [
+        {
+            "year": "2020",
+            "month": "AUG",
+            "day": "25",
+            "title": "blog-entry-1",
+            "url": "blog/2020/AUG/25/blog-entry-1"
+        },
+        {
+            "year": "2020",
+            "month": "AUG",
+            "day": "31",
+            "title": "blog-entry-2",
+            "url": "blog/2020/AUG/31/blog-entry-2"
+        }
+    ],
+    "metadata": {
+        "updatedOn": "2020-09-01T13:33:29.129Z"
+    }
+}

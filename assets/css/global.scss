@@ -1,0 +1,33 @@
+@import './sass_mq.scss';
+
+h1, h2, h3, h4, h5, h6{    
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body, p, a, span{
+  font-family: 'Roboto Slab', serif;   
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover{
+    color: red
+  }
+}
+
+.use-transition{
+  transition: all .5s cubic-bezier(.55,0,.1,1);
+}
+
+.page-container{
+  width: calc(100% - 20px);
+  overflow: hidden;
+  padding: 0 10px;
+
+  @include mq($from: tablet) {
+    width: 100%;
+    padding: 0;
+  }     
+}
