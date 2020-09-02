@@ -21,9 +21,9 @@ export default {
 
   pwa: {
     manifest: {
-      name: 'Nuxt Boilerplate',
-      short_name: 'Nuxt Boilerplate',
-      description: "A Nuxt Boilerplate.",
+      name: 'Sara Cowan',
+      short_name: 'Sara Cowan',
+      description: "Sara Cowan",
       lang: 'en',
       theme_color: "#fff",
       orientation: "portrait-primary",

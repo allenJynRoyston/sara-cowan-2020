@@ -1,3 +1,3 @@
 export const metadata = {
-    siteHeader: 'Nuxt boilerplate'
+    siteHeader: 'Sara Cowan'
 }

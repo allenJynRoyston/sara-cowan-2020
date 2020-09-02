@@ -9,8 +9,8 @@
             "link": "/about"
         },
         {
-            "name": "contact",
-            "link": "/contact"
+            "name": "art",
+            "link": "/art"
         },
         {
             "name": "todos",
@@ -22,6 +22,6 @@
         }
     ],
     "metadata": {
-        "updatedOn": "2020-09-01T13:33:29.837Z"
+        "updatedOn": "2020-09-02T18:41:37.470Z"
     }
 }

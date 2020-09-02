@@ -4,7 +4,7 @@
   "main": "web.js",
   "scripts": {
     "test": "jest",
-    "dev": "nuxt",
+    "dev": "npm run create:all && nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt start",
